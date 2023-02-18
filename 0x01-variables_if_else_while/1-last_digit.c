@@ -27,5 +27,5 @@ int main(void)
 	{
 		printf(" and is 0\n");
 	}
-return (0);
-}	
+	return (0);
+}
