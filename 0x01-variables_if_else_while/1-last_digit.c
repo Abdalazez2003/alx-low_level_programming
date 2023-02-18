@@ -26,7 +26,5 @@ int main(void)
 	else if (s == 0)
 	{
 		printf(" and is 0\n");
-	}
-
-	return (0);
+	}return (0);
 }	
