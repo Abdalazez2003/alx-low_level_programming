@@ -1,14 +1,22 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
+#include <unistd.h>
 /**
  * main - Entry point
- *
- * Return: Always 0 (Success)
+ * Description: prints alphabet in lowercase then uppercase
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	int  putchar(string  "abcdefghijklmnopqrstuvwxyz", "\n");
+	int ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+	for (ch = 'A'; ch <= 'Z'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
 	return (0);
 }
